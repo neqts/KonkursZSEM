@@ -1,0 +1,975 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: #FFFFFF;
+    position: relative;
+    z-index: -100000000;
+}
+
+center {
+    max-width: 1440px;
+    margin: auto;
+}
+
+h1,
+h3,
+h4,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #2d2e30;
+    padding-bottom: 130px;
+    
+}
+
+header > .headerText {
+    display: flex;
+    vertical-align: middle;
+    padding-top: 110px;
+    font-family: Raleway;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+header > .headerText > h1.sciencePicnic {
+    font-size: 144px;
+}
+
+header > .headerText > .rightText {
+    padding:0 0 0 20px;
+    line-height: 1;
+}
+
+header > .headerText > .rightText > h3 {
+    font-size: 72px;
+    font-weight: 600;
+}
+
+header > .headerText > .rightText > p {
+    font-weight: 500;
+    line-height: normal;
+    font-size: 30px;
+}
+
+header > .headerText > .rightText > p > strong {
+    font-weight: 600;
+    line-height: normal;
+    font-size: 36px;
+    letter-spacing: 0.25em;
+    position: relative;
+}
+
+header > .headerText > .rightText > p > strong:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 40px;
+    
+    margin-left: 10px
+}
+Header > img {
+    display: block;
+    margin: auto;
+    background: url(images/par.png)no-repeat;
+    width: 80%;
+    background-size: cover;
+    margin-top: -40px
+}
+
+header > a {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #F1B12B;
+    border-radius: 40px;
+    padding: 10px;
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: auto
+}
+
+header > a:hover,
+.supportProject > .rightBox > a:hover {
+    background: #bb8a23;
+    transition: 200ms;
+}
+
+
+.supportProject {
+    height: 1000px;
+    position: relative;
+    margin-top: -30px;
+    z-index: -2;
+    position: relative;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.supportProject:after {
+    position: absolute;
+    transform: rotate(-10deg);
+    width: 200%;
+    height: 1000px;
+    content: "";
+    background: #2d2e30;
+    margin-top: -800px;
+    margin-left: -300px;
+    z-index: -1;
+}
+
+.rightBox {
+    position: absolute;
+    bottom: 40%;
+    right: 0;
+    background: #fafafa;
+    width: 67%;
+    height: 400px;
+    padding: 90px 70px 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 80px -20px #050505;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+
+.rightBox:before {
+    content: "";
+    background: url(images/7.png)no-repeat;
+    width: 828px;
+    height: 631px;
+    position: absolute;
+    margin-left: x;
+    background-size: 700px;
+    left: -500px;
+    top: -40px
+}
+
+.supportProject > .rightBox > h4 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.8;
+
+
+
+}
+
+.supportProject > .rightBox > p {
+    font-size: 30px;
+}
+
+.supportProject > .rightBox > p > span {
+    font-weight: 600;
+    line-height: normal;
+    font-size: 30px;
+
+    color: #F1B12B;
+}
+
+.supportProject > .rightBox > a {
+    background: #F1B12B;
+    border-radius: 40px;
+    padding: 30px 12px;
+    margin: 40px 150px 15px;
+    display: block;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: none;
+    z-index: 20;
+    position: relative;
+}
+
+.supportProject > .rightBox > p.thanksText {
+    font-size: 18px;
+    text-align: center;
+    color: #828282;
+    padding-top: 30px;
+}
+
+.titleBox {
+    width: 80%;
+    height: 140px;
+    margin: -100px auto 0;
+    font-family: Raleway;
+    border-left: #BDBDBD 2px solid;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 0 0 0 20px;
+}
+
+.titleBox > h4 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #333333;
+    line-height: 1.8;
+}
+
+.titleBox > p {
+    font-size: 30px;
+    color: #333333;
+}
+
+.aboutProject > .showText {
+    font-size: 30px;
+    color: #F1B12B;
+    font-family: Raleway;
+    width: 70%;
+    margin: 4% 11% 0;
+}
+
+
+.aboutProject > .imageBlur {
+    position: relative;
+    margin-top: 70px;
+    height: 530px;
+    background: url(images/Rectangle-1.png) no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.aboutProject > .imageBlur > .sliderNames {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: bottom;
+    margin-top: 200px;
+    background: #333333;
+    height: 150px;
+    align-items: center;
+}
+
+.aboutProject > .imageBlur > .sliderNames > a {
+    font-size: 44px;
+    margin: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.aboutProject > .imageBlur > .sliderNames > a:hover {
+    color: gainsboro;
+    transition: 200ms;
+}
+
+.aboutProject > .imageBlur > .sliderNames > .contentBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: Raleway;
+}
+
+.aboutProject > .imageBlur > .sliderNames > .contentBox > .leftBox {
+
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-right: 20px;
+    border-right: 1px solid #FFFFFF;
+    width: 36%;
+    line-height: 1.4;
+
+}
+
+.aboutProject > .imageBlur > .sliderNames > .contentBox > .leftBox > h3 {
+    color: #F1B12B;
+    font-size: 32px;
+}
+
+.aboutProject > .imageBlur > .sliderNames > .contentBox > .leftBox > p {
+    font-size: 24px;
+}
+
+.aboutProject > .imageBlur > .sliderNames > .contentBox > p.rightText {
+    margin-left: 20px;
+}
+
+.videoProject > .titleBox {
+    margin-top: 100px;
+    text-align: right;
+    border-right: 2px solid #BDBDBD;
+    border-left: 0;
+    padding: 20px;
+}
+
+.videoProject > div.video {
+    width: 100%;
+    height: 445px;
+    background: url(images/Rectangle.png) no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.videoProject > div.video > img {
+    cursor: pointer;
+}
+
+.lastEdition > .titleBox {
+    margin: 100px;
+}
+
+.lastEdition > .titleBox > h4 {
+    line-height:1;
+    font-weight: 100;
+    font-size: 5;
+     margin-left: 20px;
+    
+}
+
+.lastEdition > .titleBox > h4 > p {
+    font-size: 33px;
+    color: #828282;
+    font-weight: 400;
+}
+
+.lastEdition > .titleBox > p {
+    line-height: 4;
+    color: #828282;
+    font-size: 25px;
+    margin-left: 20px;
+    
+}
+
+.lastEdition > .kategorie {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap:wrap;
+}
+.lastEdition > .kategorie > .nameCircle > div.borderBox {
+    padding: 22px;
+    border-radius: 50%;
+    border: 2px solid #F1B12B;
+}
+
+.lastEdition > .kategorie > .nameCircle > div.borderBox > div.circleMoney {
+    box-sizing: border-box;
+    width: 190px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(45, 47, 48, 0.06);
+    font-family: Raleway;
+    font-size: 34px;
+
+    color: #333333;
+}
+
+.lastEdition > .kategorie > .nameCircle > p,
+.lastEdition > .information > .numbersUsers > p {
+    font-family: Raleway;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #828282;
+    margin-top: 20px;
+}
+
+.lastEdition > .information {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Raleway;
+    font-size: 52px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.lastEdition > .information > .numbersUsers {
+    position: relative;
+    padding:0 20px
+}
+
+.lastEdition > .information > .numbersUsers > p {
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.lastEdition > .information > .numbersUsers:after {
+    width: 4px;
+    height: 150px;
+    content: "";
+    position: absolute;
+    background: ;
+    display: block;
+    right: 0;
+    top: 0;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background: #333333;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f1b12b;
+    transition: 200ms;
+}
+
+footer > .footerLeft {
+    display: flex;
+    align-items: center;
+}
+
+footer > .footerLeft > p {
+    display: flex;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding-left: 20px;
+    height: 80px;
+    align-items: center;
+    border-left: 2px solid #828282;
+}
+
+footer > .footerLeft > a {
+    margin-right: 20px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: url(images/sa.png)no-repeat;
+}
+
+.container {
+    display: block;
+    max-width: 1140px;
+    margin: 150px auto;
+
+}
+
+.progressbar {
+    counter-reset: step;
+
+}
+.progressbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.progressbar li {
+    margin: auto;
+    list-style-type: none;
+    float: left;
+    width: 200px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+
+
+
+}
+
+.progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+
+    width: 90px;
+    height: 90px;
+    border: 1px solid #ddd;
+    display: block;
+    text-align: center;
+    margin: 30px auto 45px auto;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.progressbar li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    top: 80px;
+    left: -50%;
+    z-index: -1;
+
+
+}
+
+.progressbar li:first-child:after {
+    content: none;
+}
+
+.progressbar li.active {
+    color: #F1B12B;
+}
+
+.progressbar li.active:before {
+    border-color: #F1B12B;
+}
+
+.progressbar li.active + li:after {
+    background-color: #F1B12B;
+}
+
+.box {
+    margin-top: 150px;
+    margin-bottom: -50px;
+}
+.formBox > form{
+    font-family: Raleway;
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+    padding-top: 100px;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+        
+}
+.formBox > form > input{
+    padding: 10px;
+    font-family: Raleway;
+    font-size: 20px;
+    background-color: #f1b12b1a;
+    box-sizing: border-box;
+    border: 2px solid #F1B12B;
+    border-radius:10px;
+}
+
+.formBox > form > input.txtb{
+    margin: 20px;
+    width: 40%;
+    min-width: 200px;
+}
+.formBox > form > input.wsparcie{
+    width: 200px;;
+}
+.formBox > form > .labelCollect > label >input.prize{
+  visibility: hidden;
+}
+.formBox > form > .labelCollect{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.formBox > form > .labelCollect > label > input{
+    width: 0px;
+    height: 0px;
+}
+.formBox > form > .labelCollect > label > span{
+    background: #f1b12b1a;
+    padding: 10px 20px;
+    border: 2px solid #F1B12B;
+    border-radius: 10px;
+    color:#857c81;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.formBox > form > .labelCollect > label > span:hover{
+    background: #f1b12b75;
+}
+.formBox > form > .labelCollect > label > input.prize:checked ~ span{
+    background: #fdd98e;
+    color:black;
+    transition: 200ms;
+}
+.formBox > form > input.submit{
+    text-align: center;
+    background: #fdd98e;
+    width: 400px;
+    display: block;
+    margin-top: 100px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.formBox > form > input.submit:hover{
+    transform: scale(0.96);
+}
+.informationDown{
+    background: #333333;
+    padding: 5%;
+    margin-top: 150px;
+    font-family: Raleway;
+}
+.informationDown > h3.ylText{
+    margin: 20px 0;
+    color: #F1B12B;
+    font-weight: 500;
+}
+.informationDown > p{
+    color:#fff;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-left: 20px;
+}
+@media all and (max-width:1320px){
+    .supportProject > .rightBox > p.thanksText{
+        font-size:18px;
+        padding-top: 1px;
+        margin-top: 10%;
+    }
+    .aboutProject > .showText{
+        margin: 8% 13% 0;
+    }
+}
+@media all and (max-width:1250px){
+    .aboutProject > .titleBox > .description{
+        font-size:24px;
+    }
+    header > a{
+        font-size:24px;
+    }
+    .supportProject > .rightBox > h4{
+        font-size: 28px;
+    }
+    .supportProject > .rightBox > p{
+        font-size:20px
+    }
+    .aboutProject > .imageBlur > .sliderNames > .contentBox > .leftBox > h3{
+        font-size: 1.6vw;
+    }
+    .aboutProject > .imageBlur > .sliderNames > .contentBox > .leftBox > p{
+        font-size:1.4vw;
+    }
+}
+@media all and (max-width:1100px){
+    .supportProject > .rightBox > a{
+        font-size:2vw;
+    }
+    
+}
+@media all and (max-width:1060px){
+    .progressbar li:after{
+        display: none;
+    }
+    .formBox > form > .labelCollect > label > input{
+        margin-top:60px;
+    }
+    .rightBox {
+        width: 70%;
+    }
+    .lastEdition > .information > .numbersUsers > p{
+        font-size: 2vw;
+        margin-top: 10%;
+    }
+    .lastEdition > .information{
+        font-size: 4.6vw;
+    }
+}
+@media all and (max-width:1006px){
+    header > a{
+        width: 70%
+    }
+}
+@media all and (max-width:960px){
+    .aboutProject > .imageBlur > .sliderNames > .contentBox > .leftBox{
+        width: 70%;
+    }
+    .aboutProject > .imageBlur > .sliderNames > .contentBox > p.rightText{
+        font-size: 1.6vw;
+    }
+}
+@media all and (max-width:920px){
+    .rightBox{
+        width: 100%;
+        padding: 90px 0;
+        height: 300px
+    }
+    .rightBox:before{
+        display: none;
+    }
+    header > a{
+        width: 90%;
+        margin-top: 10%;
+        margin-bottom: 0;
+        padding: 30px 0;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    footer > .footerLeft > a{
+        display: none;
+    }
+    .lastEdition > .kategorie > .nameCircle{
+        padding: 10px 0
+    }
+    header > .headerText > h1.sciencePicnic{
+        font-size: 15vw
+    }
+    header > .headerText > .rightText > h3{
+        font-size: 7vw;
+    }
+    header > .headerText > .rightText > p{
+        font-size:3.3vw;
+    }
+    header > .headerText > .rightText > p > strong{
+        font-size:3.9vw;
+    }
+    header > .headerText > .rightText > p > strong:after{
+        height:110%;
+    }
+}
+@media all and (max-width:830px){
+    .titleBox{
+        width: 100%;
+        border: none;
+        text-align: left;
+    }
+    .lastEdition > .titleBox{
+        margin: 100px 0;
+    }
+    .aboutProject > .showText{
+        width:100%;
+        margin: 0;
+        padding:20% 3% 0;
+        font-size: 4vw;
+        box-sizing: border-box;
+        
+    }
+    .supportProject{
+        height:800px;
+    }
+    .supportProject > .rightBox > a{
+        width:70%;
+        margin: 5% auto;
+        font-size:4vw;
+    }
+    .aboutProject{
+        margin-top:-200px;
+    }
+    .videoProject > .titleBox{
+        text-align: left;
+    }
+    .progressbar li:before{
+        width:130px;
+        height:130px;
+    }
+    .lastEdition > .information{
+        flex-wrap:wrap;
+    }
+    .lastEdition > .information > .numbersUsers:after{
+        display: none;
+    }
+    .lastEdition > .information > .numbersUsers{
+        width: 100%;
+        padding 10% 0;
+    }
+    .formBox > form > input.txtb{
+        width:100%;
+        margin-top: 0;
+    }
+    .formBox > form > label{
+        width:100%;
+        margin-top:20px;;
+    }
+    .formBox > form > label > input.submit{
+        margin-top: 50px;
+    }
+    .formBox > form{
+        width: 90%;
+    }
+}
+@media all and (max-width:830px){
+    
+    header > a{
+        font-size:4.4vw;
+        padding:2%;
+    }
+    .supportProject > .rightBox > p.thanksText{
+        font-size:3.5vw;
+    }
+    .aboutProject > .titleBox > .description{
+        font-size:4vw;
+        padding-right: 2px;
+    }
+    .aboutProject > .imageBlur > .sliderNames > .contentBox{
+        display: block;
+    }
+    .aboutProject > .imageBlur > .sliderNames{
+        padding: 50px 0;
+        margin-top:120px;
+    }
+    .aboutProject > .imageBlur > .sliderNames > .contentBox > .leftBox {
+        width:100%;
+        text-align: center;
+        border-right: none;
+    }
+    .aboutProject > .imageBlur > .sliderNames > .contentBox > .leftBox > h3{
+        font-size: 5vw;
+    }
+    .aboutProject > .imageBlur > .sliderNames > .contentBox > .leftBox > p{
+        font-size:3.5vw;
+    }
+    .aboutProject > .imageBlur > .sliderNames > .contentBox > p.rightText{
+        font-size: 2.4vw
+    }
+    .aboutProject > .imageBlur > .sliderNames > a{
+        margin:5px;
+    }
+    .titleBox > h4{
+        line-height: 1.2;
+    }
+    .lastEdition > .titleBox > h4 > p{
+        padding-top:10px
+    }
+    .lastEdition > .titleBox{
+        text-align: center;
+    }
+    .lastEdition > .information > .numbersUsers{
+        font-size: 10vw;
+        padding-bottom: 30px;
+    }
+    .lastEdition > .information > .numbersUsers > p{
+        font-size:4vw;
+        margin-top: 2px;
+    }
+    .formBox > form > .labelCollect{
+        justify-content: center;
+    }
+    .formBox > form{
+        padding-top:0;
+        margin-top: -120px
+    }
+    header > .headerText{
+        position: relative;
+        z-index: 100;
+        padding-top: 50px
+    }
+    .formBox > form > label{
+        width:100%;
+        margin-top:20px;;
+    }
+    .formBox > form > label > input.submit{
+        margin-top: 50px;
+    }
+    .formBox > form{
+        width: 90%;
+    }
+}
+
+@media all and (max-width:550px){
+    footer > .footerLeft > p{
+        padding-left: 0px;
+        border-left:none;
+        text-align: left;
+        padding-right: 3%;
+       
+    }
+    footer{
+        font-size: 3vw;
+        display: block;
+        text-align: center;
+    }
+    .informationDown{
+        padding-bottom: 10px;
+    }
+    .videoProject > div.video > img {
+    cursor: pointer;
+        width:150px;
+        
+}
+    
+}
+.formBox > form{
+    font-family: Raleway;
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+    padding-top: 100px;
+    width: 70%;
+    margin: auto;
+    align-items: center
+}
+.formBox > form > label > input{
+    padding: 10px;
+    font-family: Raleway;
+    font-size: 20px;
+    background-color: #f1b12b1a;
+    box-sizing: border-box;
+    border: 2px solid #F1B12B;
+    border-radius:10px;
+}
+.formBox > form > label{
+    width: 40%;
+    margin: 20px;
+}
+.formBox > form > label > input.txtb{
+    width: 100%;
+    min-width: 200px;
+}
+.formBox > form > .labelCollect > label >input.prize{
+  visibility: hidden;
+}
+.formBox > form > .labelCollect{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.formBox > form > .labelCollect > label > input{
+    width: 0px;
+    height: 0px;
+}
+.formBox > form > .labelCollect > label > span{
+    background: #f1b12b1a;
+    padding: 10px 20px;
+    border: 2px solid #F1B12B;
+    border-radius: 10px;
+    color:#857c81;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.formBox > form > .labelCollect > label > span:hover{
+    background: #f1b12b75;
+}
+.formBox > form > .labelCollect > label > input.prize:checked ~ span{
+    background: #fdd98e;
+    color:black;
+    transition: 200ms;
+}
+.formBox > form > label > input.submit{
+    text-align: center;
+    background: #fdd98e;
+    width: 100%;
+    display: block;
+    margin-top: 100px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.formBox > form > label > input.submit:hover{
+    transform: scale(0.96);
+}
+
+
